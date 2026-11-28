@@ -1,6 +1,6 @@
 ---
 name: co-dev
-description: Develop software together with the user through six pipeline modes (explore, design, plan, build, walkthrough, ship) and side-kicks (triage, troubleshoot, refactor, retro, onboard, optimize, audit, hunt, spike, test, migrate, harden, document, review, decommission, recover). Use when the user asks for help with software development work, such as investigating a bug or a failing build, learning an unfamiliar codebase, deciding how to build something, planning the steps, writing or changing code, walking through a change you built, releasing it, handling a live outage, tuning performance, auditing security, hunting hidden bugs, running a spike, writing or deflaking tests, migrating data, APIs or runtimes, hardening for production, writing docs, reviewing someone else's PR, retiring dead code, flags, tables or services, repairing corrupted production data, or improving the workflow after friction. Picks the mode that supplies what the user is missing, and changes mode only with their agreement.
+description: Develop software together with the user through six pipeline modes (explore, design, plan, build, walkthrough, ship) and side-kicks (triage, troubleshoot, refactor, retro, onboard, optimize, audit, hunt, spike, test, migrate, harden, document, review, decommission, recover). Use when the user asks for help with software development work, such as investigating a bug or a failing build, learning an unfamiliar codebase, deciding how to build something, planning the steps, writing or changing code, walking through a change you built, releasing it, handling a live outage, tuning performance, auditing security, hunting hidden bugs, running a spike, writing or deflaking tests, migrating data, APIs or runtimes, hardening for production, writing docs, reviewing someone else's PR, retiring dead code, flags, tables or services, repairing corrupted production data, or improving the working system after friction, incidents or wins. Picks the mode that supplies what the user is missing, and changes mode only with their agreement.
 ---
 
 # Co-dev
@@ -43,7 +43,7 @@ These modes sit outside the delivery pipeline and are entered and left like any 
 |---|---|---|
 | triage | rapid control under a live outage or alert storm: contain active harm safely, separate signal from noise and route | `modes/triage.md` |
 | troubleshoot | an explained cause for something broken or misbehaving, before deciding what to do | `modes/troubleshoot.md` |
-| retro | a lasting, verified upgrade to how you and the agent work, from what the work just taught | `modes/retro.md` |
+| retro | a lasting, verified upgrade to the working system from what an episode taught, or a deliberate call to leave things alone | `modes/retro.md` |
 | refactor | cleaner structure or seams in existing code with external behaviour strictly unchanged | `modes/refactor.md` |
 | onboard | operational familiarity with an unfamiliar repository, service or subsystem, with no change planned yet | `modes/onboard.md` |
 | optimize | a measured improvement in latency, throughput, memory, query load, build time, bundle size or resource cost | `modes/optimize.md` |
