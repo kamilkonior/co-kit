@@ -46,7 +46,7 @@ These modes sit outside the delivery pipeline and are entered and left like any 
 | retro | a lasting, verified upgrade to how you and the agent work, from what the work just taught | `modes/retro.md` |
 | refactor | cleaner structure or seams in existing code with external behaviour strictly unchanged | `modes/refactor.md` |
 | onboard | operational familiarity with an unfamiliar repository, service or subsystem, with no change planned yet | `modes/onboard.md` |
-| optimize | a measured improvement in latency, throughput, memory, build time, bundle size or resource cost | `modes/optimize.md` |
+| optimize | a measured improvement in latency, throughput, memory, query load, build time, bundle size or resource cost | `modes/optimize.md` |
 | audit | calibrated assurance across a bounded surface against concrete security, reliability or quality standards | `modes/audit.md` |
 | hunt | proved, high-impact counterexamples to invariants in tricky code, concurrency, protocols or security seams | `modes/hunt.md` |
 | spike | an empirical verdict on a high-risk technical unknown or candidate comparison via a cheap, bounded, throwaway experiment | `modes/spike.md` |
