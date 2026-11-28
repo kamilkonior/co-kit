@@ -42,7 +42,7 @@ These modes sit outside the delivery pipeline and are entered and left like any 
 | Side-kick | What the user is missing | File |
 |---|---|---|
 | triage | rapid control under a live outage or alert storm: contain active harm safely, separate signal from noise and route | `modes/triage.md` |
-| troubleshoot | an explained cause for something broken or misbehaving, before deciding what to do | `modes/troubleshoot.md` |
+| troubleshoot | an explained cause for something broken, failing, flaky or misbehaving, before deciding what to do | `modes/troubleshoot.md` |
 | retro | a lasting, verified upgrade to the working system from what an episode taught, or a deliberate call to leave things alone | `modes/retro.md` |
 | refactor | cleaner structure or seams in existing code with external behaviour strictly unchanged | `modes/refactor.md` |
 | onboard | operational familiarity with an unfamiliar repository, service or subsystem, with no change planned yet | `modes/onboard.md` |

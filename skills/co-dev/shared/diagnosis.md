@@ -8,7 +8,7 @@ Why: fixing a symptom or a guess leaves the real fault alive to return in anothe
 
 **Desirable**
 
-- **Minimal reproduction:** the failure is triggered on demand in the smallest case that shows it.
+- **Minimal reproduction:** where reproducible, the failure is triggered reliably in the cheapest case that still shows it.
 - **Root cause analysis:** a failure is traced to the underlying defect or broken invariant, not stopped at the crash site or error message.
 - **Bisect:** the search space—commits, pipeline stages, config or inputs—is cut in half at each step rather than searched linearly.
 - **Differential diagnosis:** the failing case is contrasted against the closest working case (host, version, input or environment) to isolate what actually differs.
