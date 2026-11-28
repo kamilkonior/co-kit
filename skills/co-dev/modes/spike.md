@@ -70,7 +70,7 @@ Why: throwaway code that leaks into production or shared environments turns a ch
 
 **Desirable**
 
-- **Strict quarantine:** spike files, fixtures, trial dependencies, config tweaks and external test tenants stay isolated from production paths and shared systems, with user awareness before external cost or side effects.
+- **Strict quarantine:** spike files, fixtures, trial dependencies, config tweaks and external test tenants stay isolated from production paths and shared systems, with user consent before external cost or side effects.
 - **Toolchain parity:** the disposable setup matches the real project's runtime, compiler, dependency graph and execution constraints closely enough that findings transfer back cleanly.
 - **Clean teardown:** throwaway code is deleted and trial packages, lockfiles, config edits and external test fixtures are reverted once durable findings are captured, leaving a clearly labelled isolated reference only if the user explicitly asks.
 
