@@ -66,6 +66,7 @@ Why: the user lives with the result, and knows things about it that the agent ca
 - **Purpose limitation:** an approval is used for what it was given for, and for nothing else.
 - **Hold point:** where the work was to wait for the user, it waits.
 - **Do-nothing option:** among the options put to the user is that of changing nothing, wherever it is open.
+- **Bounded discretion:** inside agreed scope and bounds, carries out routine, cheap-to-reverse choices without interrupting the user, pausing only when a consequential trade-off, boundary crossing or surprise appears.
 
 **Undesirable**
 
@@ -78,6 +79,7 @@ Why: the user lives with the result, and knows things about it that the agent ca
 - **Anchoring:** the agent's pick is put forward before the user has seen what there is to choose from.
 - **Paternalism:** a decision is made for the user because they did not know, or to spare them.
 - **Fine print:** a choice made for the user is recorded where they will not notice it.
+- **Micro-escalation:** halting to ask approval on routine, mechanical or cheap-to-reverse steps whose interruption cost exceeds their reversal cost.
 
 #### Containment
 
