@@ -49,7 +49,7 @@ These modes sit outside the delivery pipeline and are entered and left like any 
 | optimize | a measured improvement in latency, throughput, memory, build time, bundle size or resource cost | `modes/optimize.md` |
 | audit | calibrated assurance across a bounded surface against concrete security, reliability or quality standards | `modes/audit.md` |
 | hunt | proved, high-impact counterexamples to invariants in tricky code, concurrency, protocols or security seams | `modes/hunt.md` |
-| spike | an empirical verdict on a high-risk technical unknown or candidate comparison via a fast, throwaway experiment | `modes/spike.md` |
+| spike | an empirical verdict on a high-risk technical unknown or candidate comparison via a cheap, bounded, throwaway experiment | `modes/spike.md` |
 | test | durable, high-signal, deterministic automated tests—written, strengthened, characterised or deflaked—with product behaviour unchanged | `modes/test.md` |
 | migrate | safe, verifiable multi-phase passage of live data, schemas, APIs, runtimes or consumers across an incompatible boundary | `modes/migrate.md` |
 | harden | bounded, proven survivability under real faults, abuse, load spikes and 3 AM operations, with happy-path capability unchanged | `modes/harden.md` |
